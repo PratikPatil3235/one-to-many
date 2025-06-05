@@ -5,6 +5,6 @@ export class CreateUserDto {
     @IsString()
     name: string;
 
-    @IsArray()
-    posts: Post[];
+    
+
 }
