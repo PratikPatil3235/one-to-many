@@ -1,10 +1,6 @@
-import { IsArray, IsString } from "class-validator";
-import { Post } from "src/post/entities/post.entity";
+import { IsArray, IsString } from 'class-validator';
 
 export class CreateUserDto {
-    @IsString()
-    name: string;
-
-    
-
+  @IsString()
+  name: string;
 }
